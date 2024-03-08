@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+body {
+  font-family: 'Electrolize', sans-serif;
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 50px 0px;
+}
+
+h2 {
+    text-align: center;
+    color: #0dff05;
+    font-size: 60px;
+    font-weight: 1000;
+    background: linear-gradient(45deg, rgba(9, 210, 236, 0.5), rgba(7, 97, 150, 0.5));
+  }
+  
+
+/* Form Styling */
+form {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Inputs */
+  form input[type="text"],
+  form input[type="number"] {
+    margin: 5px;
+    padding: 8px 15px;
+    border: 2px solid #ffe033; /* Red border */
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #000000 0%, #0385f0d5 50%, #000000 100%); /* Black gradient background */
+    color: #fffb13; /* Red text */
+  }
+  
+  /* Button */
+  form button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #ffcc00 0%, #ff6600 100%); /* ASUS ROG gradient button */
+    color: #000; /* Black text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background: linear-gradient(to bottom, #ffd633 0%, #ff8533 100%); /* Lighter gradient on hover */
+  }
+  
+  /* Label */
+  form label {
+    color: #ffeb33; /* Red label */
+    font-weight: bold; /* Bold label */
+    font-size: 18px; /* Larger label text */
+  }
+  
+
+  .table-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* button table */
+
+td button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #ffcc00 0%, #ff6600 100%); /* ASUS ROG gradient button */
+    color: #000; /* Black text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  td button:hover {
+    background: linear-gradient(to bottom, #ffd633 0%, #ff8533 100%); /* Lighter gradient on hover */
+  }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #33333396; /* Dark background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #555; 
+  color: #fff; 
+  font-size: 25px;
+}
+
+th {
+  background-color: #00e1ff; /* Orange background for headers */
+  text-transform: uppercase;
+}
+
+.player-name {
+  font-size: 18px; /* Bigger font size for player name */
+  font-weight: bold;
+}
+
+.player-score, .player-ranking {
+  font-size: 16px; /* Bigger font size for score and ranking */
+}
+
+tr:nth-child(even) {
+  background-color: #44444479; /* Darker row background */
+}
+
+tr:hover {
+  background-color: #50f14bab; /* Darker hover effect */
+}
+
+.score-actions button {
+  margin: 2px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #ff6600; /* Orange button */
+  color: #fff; /* White text */
+}
+
+.score-actions button:hover {
+  background-color: #ff8533; /* Lighter orange on hover */
+}
+
+  
+.footer-heart{text-align:center;font-family: open sans, sans-serif;background-color: #00e1ff; }
+
+.footer-heart a{border-bottom: 1px solid #453886;color: #453886;padding-bottom: .25em; text-decoration: none;}
+
+.footer-heart a:hover{color:#2196f3; background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;}
+
+.emoji{vertical-align: middle;}
